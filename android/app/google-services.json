@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "489821187729",
+    "project_id": "cozy-room-52b00",
+    "storage_bucket": "cozy-room-52b00.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489821187729:android:14497f5734776fb74ed930",
+        "android_client_info": {
+        "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3KzAyQlo14LPgectEx6diEreX1_IEHv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

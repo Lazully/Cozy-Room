@@ -1,6 +1,24 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  if (kIsWeb) {
+    await Firebase.initializeApp(
+        options: const FirebaseOptions(
+            apiKey: "AIzaSyCmQM4RGgbmwNQQxAq7uHtgGQfFrRuk7NQ",
+            authDomain: "cozy-room-52b00.firebaseapp.com",
+            projectId: "cozy-room-52b00",
+            storageBucket: "cozy-room-52b00.firebasestorage.app",
+            messagingSenderId: "489821187729",
+            appId: "1:489821187729:web:6d9c339b1cd5fe204ed930",
+            measurementId: "G-BSV7XVRFRK"));
+  } else {
+    await Firebase.initializeApp();
+  }
+
   runApp(const MyApp());
 }
 
