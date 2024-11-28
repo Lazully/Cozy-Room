@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cozy-room-52b00",
+          "appId": "1:489821187729:android:14497f5734776fb74ed930",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cozy-room-52b00",
+          "configurations": {
+            "android": "1:489821187729:android:14497f5734776fb74ed930",
+            "ios": "1:489821187729:ios:97b3e76c891e88ff4ed930",
+            "macos": "1:489821187729:ios:97b3e76c891e88ff4ed930",
+            "web": "1:489821187729:web:6d9c339b1cd5fe204ed930",
+            "windows": "1:489821187729:web:e57c9b0e5f8cbfc14ed930"
+          }
+        }
+      }
+    }
+  },
+  "dataconnect": {
+    "source": "dataconnect"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
